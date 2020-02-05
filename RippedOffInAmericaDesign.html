@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>RippedOffInAmericaDesign</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+        <style>
+            html, body {
+			    height:100%;
+			    width: 1200px;
+                background: white;
+                color: black;
+                font-family: Georgia;
+                margin:  0px;
+                padding: 0px;
+		    }
+            .header {
+                position: absolute;
+                top:   15px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                font-size:  50px;
+                font-weight: 550;
+                color: black;
+            }
+            .sub {
+                position: absolute;
+                top:   40px;
+                bottom: 0px;
+                left: 600px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                color:   black;
+            }
+            .border {
+                position: absolute;
+                top:     80px;
+                bottom:   0px;
+                left:    10px;
+                right:    0px;
+                height:  10px;
+                width: 1300px;
+                background-color: black;
+            }
+            .mesaverde {
+                position: absolute;
+                top:  130px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                font-size:  40px;
+                font-weight: 550;
+                width:   800px;
+                color: black;
+
+            }
+            .mesastory {
+                position: absolute;
+                top:  230px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                width: 800px;
+                color: black;
+            }
+            .allison {
+                position: absolute;
+                top:  140px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+
+            }
+            .allisonline {
+                position: absolute;
+                top:  470px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                height: 5px;
+                width: 400px;
+                background-color: black;
+            }
+            .mesacredit {
+                position: absolute;
+                top:  455px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                font-size:  10px;
+                font-weight: 550;
+                color: black;
+
+            }
+            .switchstory {
+                position: absolute;
+                top:  540px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                width: 800px;
+                color: black;
+
+                color: black;
+            }
+            .switch {
+                position: absolute;
+                top:  390px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                font-size:  40px;
+                font-weight: 550;
+                margin:  0px;
+                padding: 0px;
+                color: black;
+            }
+            .lowery {
+                position: absolute;
+                top:  400px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+
+            }
+            .loweryline {
+                position: absolute;
+                top:  620px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                height: 5px;
+                width:400px;
+                background-color: black;
+            }
+            .villas {
+                position: absolute;
+                top:  690px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                width: 800px;
+                font-size:  40px;
+                font-weight: 550;
+                color: black;
+            }
+            .villastory {
+                position: absolute;
+                top:  800px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                width:    800px;
+                font-size: 20px;
+                font-weight: 550;
+                color: black;
+            }
+            .mountain {
+                position: absolute;
+                top:  700px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+
+            }
+            .villacredit {
+                position: absolute;
+                top:  910px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                font-size:  10px;
+                font-weight: 550;
+                color: black;
+            }
+            .villaline {
+                position: absolute;
+                top:  920px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                height: 5px;
+                width: 400px;
+                background-color: black;
+            }
+            .dmv {
+                position: absolute;
+                top:  970px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                font-size:  40px;
+                font-weight: 550;
+                margin:  0px;
+                padding: 0px;
+                color: black;
+            }
+            .dmvstory {
+                position: absolute;
+                top: 1070px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                width: 800px;
+                color: black;
+            }
+            .department {
+                position: absolute;
+                top:  980px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+            }
+            .dmvcredit {
+                position: absolute;
+                top: 1190px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                font-size:  10px;
+                font-weight: 550;
+                color:   black;
+            }
+            .stateline {
+                position: absolute;
+                top: 1200px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                height: 5px;
+                width: 400px;
+                background-color: black;
+            }
+            .insurance {
+                position: absolute;
+                top: 1230px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+
+            }
+            .lineinsurance {
+                position: absolute;
+                top: 1440px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                height: 5px;
+                width: 400px;
+                background-color: black;
+            }
+            .Vegas {
+                position: absolute;
+                top: 1500px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+
+            }
+            .borderline {
+                position: absolute;
+                top: 1710px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                height: 5px;
+                width: 400px;
+                background-color: black;
+            }
+            .usaa {
+                position: absolute;
+                top: 1220px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                font-size:  40px;
+                font-weight: 550;
+                width: 800px;
+                margin:  0px;
+                padding: 0px;
+                color: black;
+            }
+            .usaastory {
+                position: absolute;
+                top: 1320px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                width: 800px;
+                background-color: black;
+            }
+            .extortion {
+                position: absolute;
+                top: 1490px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                font-size:  40px;
+                font-weight: 550;
+                width:   800px;
+                color: black;
+            }
+            .vegasstory {
+                position: absolute;
+                top: 1550px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                width: 800px;
+                color: black;
+            }
+            .freeway {
+                position: absolute;
+                top: 1750px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                
+            }
+            .obsession {
+                position: absolute;
+                top: 1740px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                font-size:  40px;
+                font-weight: 550;
+                width:   800px;
+                color: black;
+            }
+            .vegasmoney {
+                position: absolute;
+                top: 1800px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                width: 800px;
+                color: black;
+            }
+            .line {
+                position: absolute;
+                top: 1960px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                height: 5px;
+                width: 400px;
+                background-color: black;
+            }
+
+            .white {
+                position: absolute;
+                top:     60px;
+                bottom:   0px;
+                left:    10px;
+                right:    0px;
+                height:   5px;
+                width: 1260px;
+                background-color: white;
+
+            }
+            .icon-bar {
+				position: absolute;
+				top:   140px;
+				bottom:  0px;
+				left:  960px;
+				right:   0px;
+                font-size: 50px;
+            }
+            .icon-bar a {
+                color: white;
+            }
+            .website {
+                position: absolute;
+                top:  160px;
+                bottom: 0px;
+                left: 450px;
+                right:  0px;
+                font-size:  30px;
+                font-weight: 500;
+            } 
+            .cities {
+                position: absolute;
+                top:   70px;
+                bottom: 0px;
+                left: -20px;
+                right:  0px;
+                font-size:  15px;
+                font-weight: 500;
+            }
+
+            .company {
+                position: absolute;
+                top:   10px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                font-size:  40px;
+                font-weight: 550;
+                color: white;
+                width: 500px;
+
+            }
+            .web {
+                position: absolute;
+                top:  170px;
+                left: 500px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                color: white;
+                width:   500px;
+            }
+            .contact {
+                position: absolute;
+                top:    5px;
+                bottom: 0px;
+                left: 980px;
+                right:  0px;
+                font-size:  50px;
+                font-weight: 550;
+                text-decoration: none;
+                color: white;
+            }
+
+            .contact a {
+                color: white;
+                text-decoration: none;
+            }
+            .footer {
+                position: absolute;
+                top:   2000px;
+                bottom:   0px;
+                left:     5px;
+                right:    0px;
+                font-size:   30px;
+                font-weight:  550;
+                height: 200px;
+                width: 1340px;
+                background-color: black;
+                color: white;
+            }
+        </style>
+
+            <body>
+                <div class="header">Ripped Off In America</div>
+                <div class="sub">Follow The Money!</div>
+                <div class="border"></div>
+                
+                <div class="mesaverde">Mesa Verde Apartments: Pay $2,250 or you will be evicted!</div>
+                <div class="mesastory"> On August 27, 2015, Mesa Verde Apartments had the constable evict my family for not paying the rent. Apartment manager Allison Green requested that I pay $2250 to return to my apartment. 
+                That total included $1730 for two months rent and $520 in fees and penalties. Mesa Verde Apartments is owned by International Asset Managers Igor Kobyliatski.</div>
+                <div class="allison">
+                <a href="RippedOffInAmericaMesaVerde.html"><img src="Images/MesaVerdeShot.jpg" width="400" height="200"></a>
+                </div>
+                <div class="allisonline"></div>
+                
+                <div class="switch">Switch sides with drug addict from Hilton grand vacations, saves money by firing employee.</div>
+                <div class="switchstory">Officer Williams was escorted off property by security director Jerimiah Grace. Officer Williams said, “I think the management in the security department really has a stick up their ass.”</div>
+                <div class="lowery">
+                <a href="RippedOffInAmericaSwitch.html"><img src="Images/switch.jpg" width="400" height="200"></a>
+                </div>
+                <div class="loweryline"></div>
+                
+                <div class="villas">The Villas at Mountain Vista: Pay $1,890 or you will be evicted!</div>
+                <div class="villastory">The villas at mountain vista expects me to pay $4,322.42 after being evicted for not paying $1,890 for an apartment listed at $947. Apartments create rules to rip off tenants. 
+                If I follow stupid rules, they will continue to make stupid rules. Nobody creates stupid rules like apartments.</div>
+                <div class="mountain">
+                <a href="RippedOffInAmericaMountainVista.html"><img src="Images/VillasPhoto.jpg" width="400" height="200"></a>
+                </div>
+                <div class="villaline"></div>
+                
+                <div class="dmv">Nevada DMV charges big fees without offering anything in return.</div>
+                <div class="dmvstory">The Nevada Department of Motor Vehicles has mastered the art of collecting huge amounts of money without offering anything of value in return. Paying $1,500 for a piece of paper just doesn't seem right to me. 
+                If you decide not to pay a traffic ticket or can’t afford to, the Nevada DMV has the right to revoke your driving privileges.</div>
+                <div class="department">
+                <a href="RippedOffInAmericaDMV.html"><img src="Images/dmv.jpg" width="400" height="200"></a>
+                </div>
+                <div class="stateline"></div>
+                
+                <div class="insurance">
+                <a href="RippedOffInAmericaUSAA.html"><img src="Images/bald eagle.jpg" width="400" height="200"></a>
+                </div>
+                <div class="usaa">USAA Auto Insurance: Pay $1,737.07 to avoid cancellation.</div>
+                <div class="usaastory">On December 4, 2018, USAA requested that Nathaniel Williams pay $1,737.07 to avoid cancellation of his auto insurance policy. 
+                Mr. Williams understood then and there that the auto insurance companies play a role in turning the working class into the homeless.</div>
+                <div class="lineinsurance"></div>
+                
+                <div class="Vegas">
+                <a href="RippedOffInAmericaLasVegas.html"><img src="Images/Vegasview.jpg" width="400" height="200"></a>
+                </div>
+                <div class="borderline"></div>
+                <div class="extortion">Extortion, fines, fees and penalties.</div>
+                <div class="vegasstory">My evictions from Mesa Verde Apartments and The Villas at Mountain Vista are all documented with transunion, experian, equifax and credit karma. 
+                The fines, penalties and late fees are not documented. Mesa Verde Apartments kicked me and my kids out on the street.</div>
+                
+                <div class="freeway">
+                <a href="RippedOffInAmericaObsession.html"><img src="Images/vegascity.jpg" width="400" height="200"></a>
+                </div>
+                <div class="line"></div>
+                <div class="obsession">Las Vegas's big obsession with money.</div>
+                <div class="vegasmoney">After paying over $31,000 in fines, fees and penalties, I decided to think about how I ended up in this mess. I figured it out. I made a mistake when I moved here. 
+                Las Vegas, Nevada has the worst metropolitan government in the world. Possibly the worst education system too. Profit comes before people. 
+                Fines, fees and penalties arrive before paychecks in this right-to-work state. This is the city where residents work for a hourly wage and watch as it is taken away in a matter of minutes.</div>
+            
+
+                <div class="footer">
+                        <div class="company">Ripped Off In America</div>
+                        <div class="web">Rippedoffinamerica.com</div>
+                        <div class="white"></div>
+                        <div class="icon-bar">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-apple"></i></a>
+                            <a href="#"><i class="fa fa-youtube"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-spotify"></i></a>
+                        </div>
+                        <div class="cities">
+                        <ul style="list-style-type:none;">
+                            <li>Los Angeles, California</li>
+                            <li>Las Vegas, Nevada</li>
+                            <li>Phoenix, Arizona</li>
+                            <li>San Diego, California</li>
+                            <li>Tucson, Arizona</li>
+                            <li>Long Beach, California</li>
+                        </ul>
+                    </div>
+                    <div class="contact">
+                    <a href="contact.html">Contact Us</a></div>
+
+
+
+
+
+            </body>
+
+</html>

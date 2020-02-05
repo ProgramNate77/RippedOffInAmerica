@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>RippedOffInAmericaLasVegas</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+
+        <style>
+            html, body {
+			    height:100%;
+			    width: 1200px;
+                background: white;
+                color: black;
+                font-family: Georgia;
+                margin:  0px;
+                padding: 0px;
+		    }
+            .header {
+                position: absolute;
+                top:   20px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                font-size:  50px;
+                font-weight: 550;
+                color: black;
+            }
+            .border {
+                position: absolute;
+                top:     80px;
+                bottom:   0px;
+                left:    10px;
+                right:    0px;
+                height:  10px;
+                width: 1300px;
+                background-color: black;
+            }
+
+            .title {
+                position: absolute;
+                top:       100px;
+                bottom:      0px;
+                left:       10px;
+                right:       0px;
+                font-size:  50px;
+                font-weight: 550;
+                color: black;
+
+                
+            }
+            .mountain {
+                position: absolute;
+                top:  160px;
+                bottom: 0px;
+                left:  20px;
+                right:  0px;
+            }
+            .conspiracytitle {
+                position: absolute;
+                top:  575px;
+                bottom: 0px;
+                left: 200px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                color: black;
+
+            }
+            .conspiracy {
+                position: absolute;
+                top:  610px;
+                bottom: 0px;
+                left:  20px;
+                right:  0px;
+                font-size:  15px;
+                font-weight: 550;
+                width: 600px;
+                color: black;
+            }
+            .latefeestitle{
+                position: absolute;
+                top:  912px;
+                bottom: 0px;
+                left: 230px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                color: black;
+            }
+            .latefees {
+                position: absolute;
+                top:  940px;
+                bottom: 0px;
+                left:  20px;
+                right:  0px;
+                font-size:  15px;
+                font-weight: 550;
+                width: 600px;
+                color: black;
+            }
+            .evictionstitle {
+                position: absolute;
+                top: 1515px;
+                bottom: 0px;
+                left: 210px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                color: black;
+            }
+            .evictions {
+                position: absolute;
+                top: 1540px;
+                bottom: 0px;
+                left:  20px;
+                right:  0px;
+                font-size: 15px;
+                font-weight: 550;
+                width: 600px;
+                color: black;
+            }
+            .insurancetitle {
+                position: absolute;
+                top: 1780px;
+                bottom: 0px;
+                left: 200px;
+                right:  0px;
+                font-size: 20px;
+                font-weight: 550;
+                color:   black;
+            }
+            .insurance {
+                position: absolute;
+                top: 1810px;
+                bottom: 0px;
+                left:  20px;
+                right:  0px;
+                font-size:  15px;
+                font-weight: 550;
+                width:   600px;
+                color: black;
+            }
+            .healthsavingstitle {
+                position: absolute;
+                top:  575px;
+                bottom: 0px;
+                left: 900px;
+                right:  0px;
+                font-size: 20px;
+                font-weight: 550;
+                color: black;
+            }
+            .healthsavings {
+                position: absolute;
+                top:  610px;
+                bottom: 0px;
+                left: 680px;
+                right:  0px;
+                font-size:  15px;
+                font-weight: 550;
+                width:   650px;
+                color: black;
+            }
+            .lawenforcementtitle {
+                position: absolute;
+                top:  800px;
+                bottom: 0px;
+                left: 900px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                color: black;
+            }
+            .lawenforcement {
+                position: absolute;
+                top:  840px;
+                bottom: 0px;
+                left: 680px;
+                right:  0px;
+                font-size:  15px;
+                font-weight: 550;
+                width: 650px;
+                color: black;
+            }
+            .badcredittitle {
+                position: absolute;
+                top: 1280px;
+                bottom: 0px;
+                left: 920px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                color: black;
+            }
+            .badcredit {
+                position: absolute;
+                top: 1310px;
+                bottom: 0px;
+                left: 680px;
+                right:  0px;
+                font-size:  15px;
+                font-weight: 550;
+                width:   650px;
+                color: black;
+            }
+            .incometaxtitle {
+                position: absolute;
+                top: 1760px;
+                bottom: 0px;
+                left: 920px;
+                right:  0px;
+                font-size: 20px;
+                font-weight: 550;
+                color: black;
+            }
+            .incometax {
+                position: absolute;
+                top: 1790px;
+                bottom: 0px;
+                left: 680px;
+                right:  0px;
+                font-size:  15px;
+                font-weight: 550;
+                width:   650px;
+                color: black;
+            }
+            .list {
+                position: absolute;
+                top: 2050px;
+                bottom: 0px;
+                left: 920px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                width: 200px;
+                color: black;
+            }
+            .white {
+                position: absolute;
+                top:     60px;
+                bottom:   0px;
+                left:    10px;
+                right:    0px;
+                height:   5px;
+                width: 1260px;
+                background-color: white;
+            }
+            .icon-bar {
+				position: absolute;
+				top:   140px;
+				bottom:  0px;
+				left:  960px;
+				right:   0px;
+                font-size: 50px;
+            }
+            .icon-bar a {
+                color: white;
+            }
+            .website {
+                position: absolute;
+                top:  160px;
+                bottom: 0px;
+                left: 450px;
+                right:  0px;
+                font-size:  30px;
+                font-weight: 500;
+            } 
+            .cities {
+                position: absolute;
+                top:   70px;
+                bottom: 0px;
+                left: -20px;
+                right:  0px;
+                font-size:  15px;
+                font-weight: 500;
+            }
+            .company {
+                position: absolute;
+                top:   10px;
+                bottom: 0px;
+                left:  10px;
+                right:  0px;
+                font-size:  40px;
+                font-weight: 550;
+                color: white;
+                width: 500px;
+
+            }
+            .web {
+                position: absolute;
+                top:  170px;
+                bottom: 0px;
+                left: 500px;
+                right:  0px;
+                font-size:  20px;
+                font-weight: 550;
+                width: 400px;
+                color: white;
+            }
+            .contact {
+                position: absolute;
+                top:    5px;
+                bottom: 0px;
+                left: 980px;
+                right:  0px;
+                font-size:  50px;
+                font-weight: 550;
+                text-decoration: none;
+                color: white;
+
+                
+            }
+            .contact a {
+                color: white;
+                text-decoration: none;
+            }
+            .footer {
+                position: absolute;
+                top:   2110px;
+                bottom:   0px;
+                left:    10px;
+                right:    0px;
+                font-size:   30px;
+                font-weight:  550;
+                height: 200px;
+                width: 1330px;
+                background-color: black;
+                color: white;
+            }
+        </style>
+
+            <body>
+                <div class="header">Ripped Off in America!</div>
+                <div class="border"></div>
+                <div class="title">Extortion, fines, fees and penalties.</div>
+                <div class="mountain">
+                    <img src="Images/Vegasview.jpg" width="1300" height="400">
+                </div>
+                <div class="conspiracytitle">The Conspiracy</div>
+                <div class="conspiracy">There is a conspiracy to rob people of their money in Las Vegas, Nevada. Companies have the power to determine how much customers owe and when the payment is due. If the payment is not paid on time, companies have the right to charge late fees. 
+                Most of the companies don't provide a service. They do enforce fines for breaking rules. They start the cycle by creating problems in the first place. Apartments have the right to collect deposits, rent and late fees. The Department of Motor Vehicles has drivers register their vehicles every year. The registration has no value at all. The DMV still has the right to charge drivers more for the registration than other states. 
+                The DMV can also issue fines for not having auto insurance. Ironically, auto insurance companies have the right to charge an outrageous amount of money every month. Even a full service employee benefit administrative service like Igoe administrative services is allowed to take an employee’s health savings plan. Law enforcement is a business. Big tickets are issued for minor offenses.  
+                Last but not least the Internal Revenue Service and the state of Nevada have more rights to your income tax return than you do. This system is designed to keep people in debt. I will explain how the system works. </div>
+                <div class="latefeestitle">Late Fees</div>
+                <div class="latefees">On August 27, 2015, Mesa Verde Apartments had the constable evict my family for not paying the rent. Apartment manager Allison Green requested that I pay $2,250 to return to my apartment. 
+                That total included $1,730 for the month of August and September and $520 in fees. It all starts with apartment owners such as Igor Kobyliatski. He owns a company called International asset managers. He decides how much rent is and when rent is due. 
+                Mr. Kobyliatski wants rent on the first day of the month. Mr. Kobyliatski does not allow much of a margin for error for the tenant. I must remind you that the apartment does not come with electricity, heat, food or water. The tenants have to pay for that.<br><br>
+                Working class people are paid bi-weekly. Paydays rarely fall on the first day of the month. Mr. Kobyliatski wants payment for services before the tenant receives the service. 
+                He believes that he is entitled to receive rent and late fees for an empty apartment. Mr. Kobyliatski retains complete ownership of the property and half of the wealth of his tenants. On July 26, 2016, Mesa Verde Apartments charged me $865 in rent and $535 in late fees. I paid over $3,000 in late fees during my stay at Mesa Verde apartments. 
+                It was the worst decision I ever made in my life. I was extorted for money on multiple occasions by apartment manager Mrs. Green. I was evicted by the constable twice, no reports were completed. Mesa Verde apartments accounting statements are elementary at best. I received a $1,090 cleaning fee after my eviction.<br><br>
+                The name apartment needs a new definition. An apartment is a place where people go into debt. Tenants are living in an apartment going in debt with the local grocer, energy company, gas company and cable company. 
+                When the apartment manager extorts tenants for money you have the cause for homelessness. The Villas at Mountain Vista requested that I pay $1,890 for an apartment listed at $947. I was evicted on June 28, 2017. 
+                The constable failed to complete a report. The Villas at Mountain Vista had no concern for me as a tenant. They evicted my family. The Villas at Mountain Vista charged me $1,090 in cleaning fees.</div>
+                <div class="evictionstitle">Evictions</div>
+                <div class="evictions">There is no opportunity to pay the amount listed on the lease after the fifth day of the month. It is a very small window for people who work for a living. Tenants are evicted from apartments in less than thirty days. 
+                The amount of rent increases like an adjustable rate mortgage. Once a tenant is evicted, they can’t rent another apartment until they pay off the debt from the previous apartment. Your significant other may decide to visit the family support division of Clark county after you become homeless. The family support division has a problem with basic arithmetic come tax time. 
+                Some people in Las Vegas know this, some people don’t. The people who do take advantage of the people who don’t. Apartments make it difficult to pay the rent for a reason. 
+                There are more companies waiting to extort money from you. They knew that you would be coming. They keep records. The city wants all of your money.</div>
+                <div class="insurancetitle">Insurance</div>
+                <div class="insurance">The DMV knows when your auto insurance coverage lapses. They believe drivers should pay a fine for not having auto insurance. On December 15, 2017, I had to pay the DMV a $1,500 fee before I could register my car. I had to pay the DMV $750 in 2016. 
+                The DMV doesn’t care about apartments charging renters $500 late fees in Las Vegas. They don't care that late fees cause lapses in auto insurance. They expect you to have auto insurance.<br><br>  
+                On December 4, 2018, USAA requested $1,737.07 to avoid cancellation of my auto insurance policy. Auto insurance companies play a role in turning the working class into the homeless too. USAA charged me over $300 a month to insure a 2009 toyota matrix. The car note was just $250. 
+                As soon as USAA cancelled my insurance, the DMV cancelled my vehicle registration. I wish auto insurance companies would keep an accurate record of my payments. I have never seen a record that shows the total amount of money and policies that I paid for over the years.
+                I just receive monthly statements requesting more money. 
+                </div>
+                <div class="healthsavingstitle">Health Savings Plan</div>
+                <div class="healthsavings">There is a creative and innovative company that specializes in helping employees with their benefits called Igoe administrative services. Igoe administrative services headquarters is in San Diego, California. On August 15, 2018, Michael Igoe and Igoe administrative services pocketed my health savings plan after I was terminated from Switch data center. 
+                My savings plan was worth $1,300. I don’t understand how a company can take your health savings plan. Is this legal? I really could have used the benefits Mr. Igoe. I guess anything goes in Las Vegas, Nevada. The system is designed for you to lose your health savings plan too. 
+            
+                </div>
+                <div class="lawenforcementtitle">Law Enforcement</div>
+                <div class="lawenforcement">Law enforcement didn’t bother to complete a report when I was evicted from Mesa Verde Apartments or the Villas at Mountain Vista. Law enforcement did stop me while I was driving my car. There is a report about that incident. 
+                Law enforcement has computers in their vehicle with information about your driver’s license and vehicle registration. Law enforcement is a business. The previous extortion, fines, fees and penalties have made you a target for more extortion, fines, fees and penalties. You have the option to pay your tickets or lose your driving privileges. 
+                Have you ever wondered why there are so many homeless people in Las Vegas, Nevada? It is corrupt. The city is designed to rip you off with one scam after another.<br><br>
+                Have you heard the story about the Henderson police officer? A police officer pulled me over in June of 2019 and told me that I should have registered my car. This observation took me by surprise. My income tax return never arrived. I worked for custom security for $9 an hour for three months. 
+                Half of my paycheck was going to child support. I was living off of $300 every two weeks. The last time I registered my car in Las Vegas, Nevada I had to pay $1,500 in fees. I was sure the DMV would suspend my license for a month and fine me another $1,500 for not having insurance. USAA wanted a fortune for auto insurance and a payment for the balance from the last policy.
+                If USAA would charge a better rate for auto insurance, I would have a chance. If the DMV didn't charge $1,500 in fines, it wouldn't be a problem. Since USAA and the Las Vegas DMV are both greedy, the numbers didn't add up for me. The traffic stop cost me over $400.   
+                </div>
+                <div class="badcredittitle">Bad Credit</div>
+                <div class="badcredit">My evictions from Mesa Verde Apartments and The Villas at Mountain Vista are all documented with transunion, experian, equifax and credit karma. The fines, penalties and late fees are not documented. Mesa Verde Apartments kicked me and my kids out on the street. 
+                They charged me over $3,000 in late fees and put me in debt with Sentry Recovery collections for $2,270. Apartment manager Mrs. Green hired a company to put my belongings in the trash. I estimate that I had at least $10,000 worth of belongings in the apartment.<br><br>  
+                The Villas at Mountain Vista put me in debt of $4,322.42 with a collection company called national credit systems. National credit systems is located in Atlanta, Georgia. National credit systems decided to offer me a settlement after I received my income tax return in 2018. The settlement was for $2,100. I paid the first three payments to nationaI credit systems. 
+                With $1,800 paid, I just needed to make one more payment for $300. The settlement was nullified after national credit systems employee Gus Williamson refused to take my last payment from my debit card. I had made arrangements for the payments to be paid from my bank account. Did it really matter where the payment came from Gus? I wanted to get the eviction taken off of my credit report. 
+                Mr. Williamson wanted to collect $4,322.42 for his company, not $2,100. I really regret paying national credit systems. It is a form of brain-washing when you convince a homeless man that he should pay $2,100 to an apartment and remain homeless. I would advise people to never pay any apartment debt to a collection company. There are two reasons. The debt is not your fault and there is no guarantee that you will ever get your hands on $1,800 again. 
+                Employment and steady hours are not guaranteed in a right-to-work state. Extortion, fines, fees and penalties are.   
+                </div>
+                <div class="incometaxtitle">Income Tax</div>
+                <div class="incometax">Look who is waiting to rob you for your income tax return. The state of Nevada and the IRS. The IRS decided that I didn’t deserve $1 from my 2019 income tax return. The IRS also had the nerve to penalize me. The state of Nevada claimed $5,452. The IRS claimed $4,321 because I forgot to list one employer on my 2016 income tax return. Does that seem fair to you? 
+                One mistake with the IRS can cost you $4,321. That is almost the same amount an eviction costs with the Villas at Mountain Vista. Is it a coincidence that the IRS and Las Vegas apartments have the same policies? I don't think so. Could they have the same type of leadership? I think they do. There are groups that work together in the country. They want to control all the money like Mr. Kobyliatski. 
+                They actually create rules to extort money from the working class. They want to control all of your money, but they don’t want to work for it. Like we have to. That is $28,123 in fines, fees and penalties for those keeping count. A bad reputation as a father is provided by Las Vegas, Nevada for free. 
+                </div>
+                <div class="list">
+                    <a href="Statement.html">List of Charges</a>
+                </div>
+                <div class="footer">
+                    <div class="company">Ripped Off In America</div>
+                    <div class="web">Rippedoffinamerica.com</div>
+                    <div class="white"></div>
+                    <div class="icon-bar">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-apple"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-spotify"></i></a>
+                    </div>
+                    <div class="cities">
+                    <ul style="list-style-type:none;">
+                        <li>Los Angeles, California</li>
+                        <li>Las Vegas, Nevada</li>
+                        <li>Phoenix, Arizona</li>
+                        <li>San Diego, California</li>
+                        <li>Tucson, Arizona</li>
+                        <li>Long Beach, California</li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <a href="contact.html">Contact Us</a></div>
+            
+            
+            </body>
+
+
+
+</html>
